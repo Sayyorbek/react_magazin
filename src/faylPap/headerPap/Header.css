@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1250px;
+  margin: auto;
+}
+.maxw{
+ max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 50px; 
+  padding: 5px;
+}
+.maxw > li{
+  list-style: none;
+}
+/* .dis > p{
+  font-size: 14px;
+} */
+
+header {
+  padding: 10px 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* background-color: #868282; */
+  
+  /* backdrop-filter: blur(5px); */
+  /* border-radius: 10px; */
+}
+.bac{
+  background-color: gainsboro; 
+  height: 28px; 
+}
+.bac > p{
+  font-size: 18px;
+}
+.top{
+  margin-bottom: 35px;
+}
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.dis{
+  gap: 50px;
+}
+.min{
+  gap: 5px;
+}
+.display > h4 {
+  color: white;
+  /* display: inline-block; */
+  color: #7000ff;
+  /* border-bottom: 1px solid black; */
+}
+button{
+  font-size: 20px;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  color: #7000ff;
+  background-color: #d7cde4;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  list-style: none;
+}
+ul li {
+  /* font-size: 19px; */
+  list-style: none;
+}
+ul > li > input{
+  padding: 9px 30px;
+  width: 500px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  border: 1px solid gray;
+}
+header div {
+  font-size: 30px;
+}
+
+header > div > img{
+  width: 40px;
+}
+.hd2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.baskendiv {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.ph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  position: relative;
+  font-weight: 600;
+  /* text-align: center; */
+  top: -15px;
+  left: -3px;
+  background-color: #7000ff;
+  color: white;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.button_bar{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+a{
+  text-decoration: none;
+}
+.button_bar > button{
+  color: black;
+  /* background-color: #7000ff; */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all .4s ease;
+  margin-right: 7px;
+  background-color: transparent;
+}
+.baskendiv > a  button:hover{
+  /* transform: scale(1.1); */
+  background-color: #d7cde4;
+  /* box-shadow: 0px 0px 5px white; */
+}
+.nex_header{
+  margin-top: 10px;
+}
+.nex_header img{
+  width: 30px;
+}
