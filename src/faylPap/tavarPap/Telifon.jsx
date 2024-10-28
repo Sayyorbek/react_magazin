@@ -55,7 +55,7 @@ const Telifon = ({ phone, addtoCartFunc }) => {
               <p>
                 <IoStar /> Lorem, ipsum.
               </p>
-              <h4>15000 so`m oyiga</h4>
+              <h4>13000 so`m oyiga</h4>
               <br />
               <br />
               <br />
