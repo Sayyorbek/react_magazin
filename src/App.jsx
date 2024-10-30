@@ -470,7 +470,13 @@ function App() {
 
     <div className="App">
       <Header cart={cart} />
-      <Swiper
+  
+      <div className="tavar">
+
+        <Routes>
+          {/* <Route path="/" element={
+            <>
+             <Swiper
     cssMode={true}
     navigation={true}
     pagination={true}
@@ -511,9 +517,6 @@ function App() {
     <SwiperSlide>
       <img src={swiper7} alt="Slide 7 description" />
     </SwiperSlide>
-    {/* <SwiperSlide>
-      <img src={swiper8} alt="Slide 8 description" />
-    </SwiperSlide> */}
     <SwiperSlide>
       <img src={swiper9} alt="Slide 9 description" />
     </SwiperSlide>
@@ -521,17 +524,20 @@ function App() {
       <img src={swiper10} alt="Slide 10 description" />
     </SwiperSlide>
   </Swiper>
-  
-      <div className="tavar">
-
-        <Routes>
+            </>
+          } /> */}
           <Route
+
             path="/"
             element={<Telifon addtoCartFunc={addtoCartFunc} phone={phone} />}
           />
           <Route path="Viw/:id" element={<Viu phone={phone} />} />
           <Route
             path="product"
+            element={<Product cart={cart} deleteHandler={deleteHandler} phone={phone} addtoCartFunc={addtoCartFunc} />}
+          />
+          <Route
+            path="sorted"
             element={<Product cart={cart} deleteHandler={deleteHandler} phone={phone} addtoCartFunc={addtoCartFunc} />}
           />
         </Routes>
